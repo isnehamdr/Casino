@@ -1,1 +1,27 @@
 @import "tailwindcss";
+
+
+@font-face {
+  font-family: 'BrandonGrotesque-Bold';
+  src: url('/Brandon-Grotesque-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'BrandonGrotesque-Thin';
+  src: url('/Brandon-Grotesque-Thin.otf') format('opentype');
+}
+
+
+
+/* Apply fonts */
+h1, h2, h3 {
+  font-family: 'BrandonGrotesque-Bold', sans-serif;
+}
+
+p, a, span, button {
+  font-family: 'BrandonGrotesque-Thin', sans-serif;
+}
+
+.btn {
+  cursor: pointer;
+}
