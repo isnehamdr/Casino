@@ -93,7 +93,7 @@ export default function Navbar() {
             className="text-white bg-[#d72921] text-sm uppercase flex gap-2 items-center cursor-pointer border border-[#d72921] px-3 py-2"
           >
             <LocationIcon />
-            <span className="hidden sm:block">Our Casino</span>
+            <span className="hidden sm:block">Location</span>
           </button>
         </div>
       </header>
